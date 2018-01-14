@@ -1,0 +1,301 @@
+/* ecran largeur max 1024*/
+@media all and (max-width: 1024px) {
+  body {
+    background-color: #D19275;
+  }
+
+  #pageentière {
+    margin-left: 0%;
+    margin-right: 0%;
+    width: auto;
+    height: auto;
+    background-color: white;
+  }
+
+  #page-header{
+    background-image: none;
+
+    background-color: black;
+  }
+
+  h1{
+    color: white;
+    font-size: 350%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #photo1 {
+    display: none;
+  }
+
+  #conteneur {
+display: none;
+  }
+  .element {
+      width: 20%;
+      height: 20%;
+  }
+
+  .photoinfo{
+    display: none;
+  }
+
+
+
+
+  #aboutme{}
+
+  #Formationscolaire{
+    display: block;
+    flex-wrap: wrap;
+
+  }
+  .logoetude{
+    display:none;
+  }
+
+  .element2 {
+    width: 200px;
+    height: 150px;
+  }
+
+
+
+
+  #work{
+    width: 100%;
+    height: auto;
+
+  }
+
+  #droite {
+  width: 100%;
+  float: none;
+
+  }
+
+  #langue{
+    width: 200px;
+    height: 100px;
+    border-bottom: none;
+    border-left: none;
+  }
+  #hobbit{
+    width: 70%;
+    height: auto;
+    border-bottom: none;
+  border-left: none;
+  }
+  #competences{
+    width: 70%;
+    height: auto;
+    border-bottom: none;
+    border-left: none;
+    }
+
+  .geographie{
+    display: none;
+  }
+
+
+  #gauche{
+    width: 100%;
+  }
+
+
+
+  #Exp-stage-entreprise{
+    width: 100%;
+    height: auto;
+    border-bottom: none;
+  border-left: none;
+  }
+
+  #ADREA{
+    width: auto;
+    height: auto;
+    border-bottom: none;
+  border-left: none;
+  }
+  #carrefour{
+    width: auto;
+    height:auto;
+    border-bottom: none;
+   border-left: none;
+  }
+  #EDF{
+    width: auto;
+    height: auto;
+    border-bottom: none;
+    border-left: none;
+  }
+
+
+
+  .imagelogo{
+    display: none;
+  }
+
+}
+
+
+/* ecran orientation portrait*/
+@media all and (orientation: portrait){
+  body {
+    background-color: #D19275;
+  }
+
+  #pageentière {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: auto;
+    height: auto;
+    background-color: white;
+  }
+
+  #page-header{
+    background-image: url(Image/backgroundCV.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+
+  h1{
+    color: black;
+    font-size: 350%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #photo1 {
+    width:150px;
+    height:280px;
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+  }
+
+
+  #nav{
+    display: none;
+  }
+
+
+  #conteneur {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      border-bottom: 3px solid#808080;
+  }
+  .element {
+      width: 32%;
+      height: 135px;
+  }
+
+  .photoinfo{
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+  }
+
+
+
+
+  #aboutme{}
+
+  #Formationscolaire{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 3px solid #808080;
+  }
+  .logoetude{
+    width: 80px;
+    height:70px;
+
+  }
+
+  .element2 {
+    width: 24.5%;
+  }
+
+
+
+
+  #work{
+    width: 100%;
+  }
+
+  #droite {
+    float: right;
+    width: 35%;
+  }
+
+  #langue{
+    padding-left: 5%;
+    width: 325px;
+    height: auto;
+    border-bottom: 3px solid #808080;
+    border-left : 3px solid #808080;
+  }
+  #hobbit{
+    padding-left: 5%;
+    width: 325px;
+    height: 140px;
+    border-bottom: 3px solid #808080;
+    border-left : 3px solid #808080;
+  }
+  #competences{
+    padding-left: 5%;
+    width: 325px;
+    height: 120px;
+    border-bottom: 3px solid #808080;
+    border-left : 3px solid #808080;
+  }
+  .geographie{
+    width: 325px;
+    height: 140px;
+  }
+
+
+  #gauche{
+    width: 65%;
+  }
+
+
+
+  #Exp-stage-entreprise{
+    width: 100%;
+
+  }
+
+  #ADREA{
+    padding-left: 5%;
+    width: 90%;
+    height: 30%;
+    border-bottom: 3px solid #808080;
+  }
+  #carrefour{
+    padding-left: 5%;
+    width: 90%;
+    height: 30%;
+    border-bottom: 3px solid #808080;
+  }
+  #EDF{
+    padding-left: 5%;
+    width: 90%;
+    height: 30%;
+    border-bottom: 3px solid #808080;
+  }
+
+
+
+  .imagelogo{
+    width: 90px;
+    height: 60px;
+    padding-left:60%;
+  }
+}
