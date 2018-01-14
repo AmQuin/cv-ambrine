@@ -1,0 +1,154 @@
+
+body {
+  background-color: #D19275;
+}
+
+#pageentière {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: auto;
+  height: auto;
+  background-color: white;
+}
+
+/* header*/
+#page-header{
+  background-image: url(Image/backgroundCV.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+h1{
+  color: black;
+  font-size: 350%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#photo1 {
+  width:150px;
+  height:280px;
+  display: block;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+
+/* premiere parti, description personnel*/
+#conteneur {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 3px solid#808080;
+}
+.element {
+    width: 32%;
+    height: 135px;
+}
+
+.photoinfo{
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+}
+
+
+
+/* partie qui correspond à mon descriptif de formations*/
+#aboutme{}
+
+#Formationscolaire{
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 3px solid #808080;
+}
+.logoetude{
+  width: 80px;
+  height:70px;
+
+}
+
+.element2 {
+  width: 24.5%;
+}
+
+
+
+/* toute ma partie en realition avec mon travail*/
+#work{
+  width: 100%;
+
+}
+
+/* parti à droite descriptif des langues, des compétences, de la mobilité georaphique*/
+#droite {
+  float: right;
+  width: 35%;
+}
+
+#langue{
+  padding-left: 5%;
+  width: 325px;
+  height: auto;
+  border-bottom: 3px solid #808080;
+  border-left : 3px solid #808080;
+}
+#hobbit{
+  padding-left: 5%;
+  width: 325px;
+  height: 140px;
+  border-bottom: 3px solid #808080;
+  border-left : 3px solid #808080;
+}
+#competences{
+  padding-left: 5%;
+  width: 325px;
+  height: 120px;
+  border-bottom: 3px solid #808080;
+  border-left : 3px solid #808080;
+}
+.geographie{
+  width: 325px;
+  height: 140px;
+}
+
+
+/* parti de gauche qui exprime les experiences du travail, à gauche de la page*/
+#gauche{
+  width: 65%;
+}
+
+
+
+#Exp-stage-entreprise{
+  width: 100%;
+
+}
+
+#ADREA{
+  padding-left: 5%;
+  width: 90%;
+  height: 30%;
+  border-bottom: 3px solid #808080;
+}
+#carrefour{
+  padding-left: 5%;
+  width: 90%;
+  height: 30%;
+  border-bottom: 3px solid #808080;
+}
+#EDF{
+  padding-left: 5%;
+  width: 90%;
+  height: 30%;
+  border-bottom: 3px solid #808080;
+}
+
+.imagelogo{
+  width: 90px;
+  height: 60px;
+  padding-left:60%;
+}
